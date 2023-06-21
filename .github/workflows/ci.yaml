@@ -17,10 +17,7 @@ jobs:
             build: windows
             compiler: i686-w64-mingw32-gcc
 
-          - name: "macOS"
-            os: macos-latest
-            build: osx
-            compiler: clang
+        
     steps:
       - uses: actions/checkout@v2
         with:
