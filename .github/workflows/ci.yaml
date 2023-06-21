@@ -12,10 +12,10 @@ jobs:
             build: linux
             compiler: clang
 
-          - name: "Windows x64"
+          - name: "Windows x86"
             os: ubuntu-20.04
             build: windows
-            compiler: x86_64-w64-mingw32-gcc
+            compiler: i686-w64-mingw32-gcc
 
           - name: "macOS"
             os: macos-latest
